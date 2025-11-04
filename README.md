@@ -31,17 +31,26 @@ HTML / CSS (static website generation)
 
 📦 Project Structure
 MovieProjectSQLiteAPIHTML/
-│
-├── movies.py                # Main CLI application
-├── movie_storage_sql.py     # SQLite database handler (SQLAlchemy)
-├── data_fetcher.py          # Fetches movie data from OMDb API
-│
-├── template.html            # HTML template for website generation
-├── style.css                # Stylesheet for generated website
-│
-├── .env                     # Contains your OMDb API key
-├── movies.db                # SQLite database (auto-generated)
-└── README.md
+
+-- movies.py                # Main CLI application
+
+-- movie_storage_sql.py     # SQLite database handler (SQLAlchemy)
+
+-- data_fetcher.py          # Fetches movie data from OMDb API
+
+
+
+-- template.html            # HTML template for website generation
+
+-- style.css                # Stylesheet for generated website
+
+
+
+-- .env                     # Contains your OMDb API key
+
+-- movies.db                # SQLite database (auto-generated)
+
+-- README.md
 
 
 
